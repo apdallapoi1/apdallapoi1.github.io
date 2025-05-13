@@ -1,0 +1,66 @@
+body{
+  background-color: pink;
+  font-family: fantasy;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.menu a{
+  text-decoration: none;
+  font-weight: bold;
+  color:blue;
+  margin-top: -0px;
+}
+.navbar {
+  background-color: greenyellow;
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  flex: 1;
+}
+
+.navbar a {
+  display: block;
+  color: brown;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #575757;
+}
+h1{
+  background-color: goldenrod;
+  text-align: center;
+}
+h2{
+  background-color: blueviolet;
+  font-family: fantasay;
+  color:lightblue;
+}
+h3{
+  margin-top:-180px;
+  text-align: center;
+  color: red;
+  font-size: 20px;
+}
+div{
+  color:green;
+}
+footer{
+  margin-top: -10px;
+  text-align: center;
+}
